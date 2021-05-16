@@ -5,10 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import FunctionalComponent from './functional';
 import ClassComponent from './classcompo';
+import AsyncAwait from './asyncawait';
+import Examplesofes6 from './ES6';
+import ExampleforPromises from './Promises';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ClassComponent/>
+    <ExampleforPromises/>
   </React.StrictMode>,
   document.getElementById('root')
 );
