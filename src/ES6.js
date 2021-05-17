@@ -2,10 +2,13 @@ import React from 'react';
 
 const Examplesofes6 = () =>{
 
+  function stringliterals(){
     let firstName= "Kalaivani";
     let lastName= "Elangovan"
     var name = `Your name is ${firstName} ${lastName}.`
     console.log(name);
+  return <h3>name</h3>;
+  }
 
     //Destructuring
 
@@ -58,7 +61,7 @@ const Examplesofes6 = () =>{
 return(
     <div>
        <p>ES6 Features</p>
-      <div> Template Literals:<span style = {{color:'red'}}> {name} </span></div>
+      <div> {stringliterals} </div>
     </div>
 );
 }

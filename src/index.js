@@ -8,10 +8,11 @@ import ClassComponent from './classcompo';
 import AsyncAwait from './asyncawait';
 import Examplesofes6 from './ES6';
 import ExampleforPromises from './Promises';
+import Greeting from './JSX';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ExampleforPromises/>
+    <Greeting/>
   </React.StrictMode>,
   document.getElementById('root')
 );
